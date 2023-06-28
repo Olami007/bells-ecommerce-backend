@@ -1,7 +1,7 @@
 const ProdModel = require("../model/ProdModel");
 const UserModel = require("../model/UserModel");
 const yup = require("yup");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const { Mail } = require("../services/Mail");
 
